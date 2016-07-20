@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NDKEcho</string>
+    <string name="lbHost">Server</string>
+    <string name="defHost">210.220.167.96</string>
+    <string name="lbPort">Port</string>
+    <string name="defPort">54321</string>
+    <string name="lbType">Type</string>
+    <string name="lbConnect">Connect</string>
+    <string name="lbSend">Send</string>
+    <string name="msgTCPConnect">TCP/IP socket connected.</string>
+    <string name="fmtTCPConnect">Connecting to %1$s:%2$d (TCP/IP)</string>
+    <string name="msgTCPDisconnect">TCP/IP socket disconnected.</string>
+</resources>

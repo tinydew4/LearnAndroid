@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" >  
+    <LinearLayout 
+	    android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+		<TextView
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:text="경기지역 날씨 정보"
+	  		android:textSize="21dp" 
+	  	/>
+		<TableLayout
+	  		android:id="@+id/table_layout"
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content">  
+		</TableLayout>
+		<TextView
+	  		android:id="@+id/last_update_message"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:text="업데이트 정보가 없습니다."
+	  		android:paddingTop="10dp"
+		  	android:paddingLeft="4dp"
+		  	android:paddingRight="4dp"
+		  	android:paddingBottom="4dp"  
+	  	/>  
+  	</LinearLayout>	  
+</ScrollView>

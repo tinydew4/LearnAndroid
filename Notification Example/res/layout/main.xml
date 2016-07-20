@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button
+    	android:id="@+id/bt_run_toast"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="토스트 실행하기"  />
+    <Button
+    	android:id="@+id/bt_add_notification"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="상태바에 알림 추가하기"  />
+    <Button
+    	android:id="@+id/bt_run_dialog"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="다이얼로그 실행하기"  />
+</LinearLayout>

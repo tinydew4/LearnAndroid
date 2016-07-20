@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="kr.co.wikibook.twitter"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".TwitterActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+            	<category android:name="android.intent.category.DEFAULT" />
+            	<category android:name="android.intent.category.BROWSABLE" />
+            	<data android:scheme="tinydew4" android:host="android.artofcode.org" />
+            </intent-filter>
+        </activity>
+        <activity android:name="AddNewTwitActivity"></activity>
+        <activity android:name="TwitViewActivity"></activity>
+        <uses-library android:name="com.google.android.maps" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

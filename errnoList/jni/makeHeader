@@ -1,0 +1,1 @@
+javah -classpath ../bin kr.co.tinydew4.errno_list.ErrnoListActivity

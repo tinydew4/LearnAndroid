@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+    <TableLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:stretchColumns="0"
+    	>
+    	<TableRow>
+    		<EditText
+    			android:id="@+id/twit_message_box"
+    			android:layout_width="fill_parent"
+    			android:layout_height="120dp"
+    			android:gravity="left|top"
+    			/>
+    	</TableRow>
+    </TableLayout>
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:background="@drawable/border"
+    	android:gravity="right" 
+    	>
+    	<Button
+    		android:id="@+id/bt_update_status"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="트윗 올리기"
+    		/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Y! errno 설명</string>
+    <string name="fmtListItem">%1$3d: %2$s</string>
+    <string name="Tab1Title">Search</string>
+    <string name="Tab2Title">1-50</string>
+    <string name="Tab3Title">51-100</string>
+    <string name="Tab4Title">101-131</string>
+    <string name="BtnSearch">Search</string>
+</resources>
